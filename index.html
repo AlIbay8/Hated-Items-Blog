@@ -2483,6 +2483,30 @@ Please stop.</pre>
     
     <div class="End hidden new5">
         <div class="postContainer">
+            <pre>Dear Caesar,
+
+What has happened to you? Do you realize what you've done? 
+We all think that you need a break from the internet.
+Before the internet became highly accessible, the 
+internet was a way to disrupt reality. Nowadays, 
+reality is a way to disrupt the internet.
+
+Sincerely, John.</pre>
+
+<pre>
+
+
+
+Dear player,
+
+Thank you for daring to play our game. 
+If you had the time to complete this, 
+you have time to explore the real world.
+
+Sincerely, Samlexander.
+</pre>
+
+<button id="kill">Kill</button>
         </div>
     </div>
     
@@ -2577,6 +2601,13 @@ $("#codeEnter").click(function() {
         $(".old5").hide();
         $(".new5").show();
     } else {
-        alert("Find all possible combinations with the 4 numbers you find. If you are missing numbers, please try again");
+        alert("Find all possible combinations with the 4 numbers you find until it works. If you are missing numbers, please reset the page.");
+    }
+});
+
+$("#kill").click(function() {
+    var kill = confirm("Are you sure you want to kill the page?");
+    if (kill === true) {
+        $("html").remove();
     }
 });</script></body></html>
