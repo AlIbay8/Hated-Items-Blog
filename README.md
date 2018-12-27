@@ -1,1 +1,0 @@
-# Hated-Items-Blog
