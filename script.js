@@ -56,25 +56,25 @@ var number4 = 1 + Math.floor(Math.random() * 9);
 
 // alert(number1 + "" + number2 + "" + number3 + "" + number4);
 
-if (number1 % 2 ===0) {
+if (number1 % 2 === 0) {
     $("#num1even").text(number1);
 } else {
     $("#num1odd").text(number1);
 }
 
-if (number2 % 2 ===0) {
+if (number2 % 2 === 0) {
     $("#num2even").text(number2);
 } else {
     $("#num2odd").text(number2);
 }
 
-if (number3 % 2 ===0) {
+if (number3 % 2 === 0) {
     $("#num3even").text(number3);
 } else {
     $("#num3odd").text(number3);
 }
 
-if (number4 % 2 ===0) {
+if (number4 % 2 === 0) {
     $("#num4even").text(number4);
 } else {
     $("#num4odd").text(number4);
@@ -85,5 +85,7 @@ $("#codeEnter").click(function() {
     if (code === number1 + "" + number2 + "" + number3 + "" + number4) {
         $(".old5").hide();
         $(".new5").show();
+    } else {
+        alert("Find all possible combinations with the 4 numbers you find. If you are missing numbers, please try again");
     }
 });
