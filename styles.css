@@ -95,3 +95,7 @@ input {
     display: flex;
     justify-content: space-between;
 }
+
+#num1even, #num1odd, #num2even, #num2odd, #num3even, #num3odd, #num4even, #num4odd {
+    color: red;
+}
