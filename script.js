@@ -86,6 +86,13 @@ $("#codeEnter").click(function() {
         $(".old5").hide();
         $(".new5").show();
     } else {
-        alert("Find all possible combinations with the 4 numbers you find. If you are missing numbers, please try again");
+        alert("Find all possible combinations with the 4 numbers you find until it works. If you are missing numbers, please reset the page.");
+    }
+});
+
+$("#kill").click(function() {
+    var kill = confirm("Are you sure you want to kill the page?");
+    if (kill === true) {
+        $("html").remove();
     }
 });
