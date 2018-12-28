@@ -56,28 +56,44 @@ var number4 = 1 + Math.floor(Math.random() * 9);
 
 // alert(number1 + "" + number2 + "" + number3 + "" + number4);
 
-if (number1 % 2 === 0) {
-    $("#num1even").text(number1);
-} else {
-    $("#num1odd").text(number1);
+if (number1 % 2 === 0 && number1 < 5.5) {
+    $("#num10").text(number1);
+} else if (number1 % 2 !== 0 && number1 < 5.5) {
+    $("#num11").text(number1);
+} else if (number1 % 2 === 0 && number1 > 5.5) {
+    $("#num12").text(number1);
+} else if (number1 % 2 !== 0 && number1 > 5.5) {
+    $("#num13").text(number1);
 }
 
-if (number2 % 2 === 0) {
-    $("#num2even").text(number2);
-} else {
-    $("#num2odd").text(number2);
+if (number2 % 2 === 0 && number2 < 5.5) {
+    $("#num20").text(number2);
+} else if (number2 % 2 !== 0 && number2 < 5.5) {
+    $("#num21").text(number2);
+} else if (number2 % 2 === 0 && number2 > 5.5) {
+    $("#num22").text(number2);
+} else if (number2 % 2 !== 0 && number2 > 5.5) {
+    $("#num23").text(number2);
 }
 
-if (number3 % 2 === 0) {
-    $("#num3even").text(number3);
-} else {
-    $("#num3odd").text(number3);
+if (number3 % 2 === 0 && number3 < 5.5) {
+    $("#num30").text(number3);
+} else if (number3 % 2 !== 0 && number3 < 5.5) {
+    $("#num31").text(number3);
+} else if (number3 % 2 === 0 && number3 > 5.5) {
+    $("#num32").text(number3);
+} else if (number3 % 2 !== 0 && number3 > 5.5) {
+    $("#num33").text(number3);
 }
 
-if (number4 % 2 === 0) {
-    $("#num4even").text(number4);
-} else {
-    $("#num4odd").text(number4);
+if (number4 % 2 === 0 && number4 < 5.5) {
+    $("#num40").text(number4);
+} else if (number4 % 2 !== 0 && number4 < 5.5) {
+    $("#num41").text(number4);
+} else if (number4 % 2 === 0 && number4 > 5.5) {
+    $("#num42").text(number4);
+} else if (number4 % 2 !== 0 && number4 > 5.5) {
+    $("#num43").text(number4);
 }
 
 $("#codeEnter").click(function() {
