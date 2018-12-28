@@ -84,11 +84,15 @@ body {
 }
 
 input {
-    width: 300px;
+    width: 70%;
 }
 
 .sendicon {
-    width: 50px;
+    width: 20%;
+}
+
+button {
+    width: 30%;
 }
 
 .send {
@@ -96,6 +100,14 @@ input {
     justify-content: space-between;
 }
 
-#num1even, #num1odd, #num2even, #num2odd, #num3even, #num3odd, #num4even, #num4odd {
+#num10, #num11, #num12, #num13, #num20, #num21, #num22, #num23, #num30, #num31, #num32, #num33, #num40, #num41, #num42, #num43 {
     color: red;
+}
+
+#code {
+    width: 200px;
+}
+
+#codeEnter {
+    width: 50px;
 }
