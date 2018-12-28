@@ -88,11 +88,15 @@
 }
 
 input {
-    width: 300px;
+    width: 70%;
 }
 
 .sendicon {
-    width: 50px;
+    width: 20%;
+}
+
+button {
+    width: 30%;
 }
 
 .send {
@@ -100,8 +104,16 @@ input {
     justify-content: space-between;
 }
 
-#num1even, #num1odd, #num2even, #num2odd, #num3even, #num3odd, #num4even, #num4odd {
+#num10, #num11, #num12, #num13, #num20, #num21, #num22, #num23, #num30, #num31, #num32, #num33, #num40, #num41, #num42, #num43 {
     color: red;
+}
+
+#code {
+    width: 200px;
+}
+
+#codeEnter {
+    width: 50px;
 }</style></head>
     <body>
     <!-- RULES: You may not look into the code unless hinted to do so or if it's absolutely needed. The only secrets/clues that you can find in code are comments. We recommend that you don't search the internet for answers, but if you are stuck, you may do so. You also may work with other people to solve this if you'd like. Also, please don't check our repositories for the other pages. -->
@@ -139,7 +151,7 @@ input {
                         </div>
                         <div class="send">
                             <input type="text">
-                            <button><img class="sendicon" src="https://static.thenounproject.com/png/1054386-200.png"></button>
+                            <button class="sendButton"><img class="sendicon" src="https://static.thenounproject.com/png/1054386-200.png"></button>
                         </div>
                     </div>
                 </div>
@@ -147,7 +159,7 @@ input {
                     <img class="max" src="https://i.imgur.com/CZCyUoC.jpg">
                     <p>This is a classic favorite for me. If you didn't know, this is not a fashionable slab of plastic, it's my laptop. It's quite an old one, but it still runs. It once said hello to me, I believe it's a Dell. This post is dedicated to my laptop.</p>
                     
-                    <div id="num1even">
+                    <div id="num10">
                     </div>
                     
                     <div class="commentdiv">
@@ -389,7 +401,7 @@ input {
             <div class="postContainer">
                 <img src="https://i.imgur.com/TS0zUhR.png">
                 <p>Hi everyone! My name is Caesar. This blog is where I post pictures and backstories of my favorite/cherished items. All these cherished items are cherished for a reason. I post these cherished items online because some day, these items will be gone and I won't have them anymore. This blog is a way of remembering these items and sharing them with the world! </p>
-                <div id="num3even"></div>
+                <div id="num30"></div>
             </div>
             
             
@@ -749,6 +761,7 @@ input {
             </div>
         
             <div class="postContainer">
+                <div id="num43"></div>
                 <img src="https://i.imgur.com/TS0zUhR.png">
                 <p>Hi everyone! My name is Caesar. This blog is where I post pictures and backstories of my favorite/cherished items. All these cherished items are cherished for a reason. I post these cherished items online because some day, these items will be gone and I won't have them anymore. This blog is a way of remembering these items and sharing them with the world! </p>
             </div>
@@ -777,6 +790,7 @@ input {
                 
                 <div class="movieBlog post">
                     <img class="max" src="https://i.imgur.com/nPdPcgX.png">
+                    <div id="num33"></div>
                     <h4 class="pointer">Movie Blog</h4>
                     <p>This is a movie blog. I post about my favorite movies here.</p>
                 </div>
@@ -811,7 +825,7 @@ input {
                 <p>Under construction! I told you not to click.</p>
             </div>
             
-            <div id="num4even"></div>
+            <div id="num40"></div>
         </div>
     </div>
     
@@ -1167,7 +1181,7 @@ input {
                 <div class="cherishedItemsBlog post">
                     <img class="max" src="https://i.imgur.com/Hzmc8D6.png">
                     <h4 class="pointer">Cherished Items Blog</h4>
-                    <div id="num2even"></div>
+                    <div id="num20"></div>
                     <p>This is the blog you are on right now. This is where I post about my favorite objects.</p>
                 </div>
                 
@@ -1188,6 +1202,7 @@ input {
         
             <div class="postContainer">
                 <p>Under construction! I told you not to click.</p>
+                <div id="num12"></div>
             </div>
         </div>
     </div>
@@ -1231,7 +1246,7 @@ input {
                             <div class="comment">
                                 <img class="profilepic" src="https://i.imgur.com/RAhHK4w.png">
                                 <p>Ha, is this the halloween update</p>
-                                <div id="num4odd"></div>
+                                <div id="num41"></div>
                             </div>
                         </div>
                         <div class="send">
@@ -1424,6 +1439,7 @@ input {
                             </div>
                             <div class="comment">
                                 <img class="profilepic" src="https://i.imgur.com/9jFk6iv.png">
+                                <div id="num32"></div>
                                 <p>But it doesn't seem that he reads comments</p>
                             </div>
                             <div class="comment">
@@ -1592,7 +1608,7 @@ input {
         
             <div class="postContainer">
                 <p>Under construction! I told you not to click.</p>
-                <div id="num2odd"></div>
+                <div id="num21"></div>
             </div>
         </div>
     </div>
@@ -1796,7 +1812,7 @@ input {
                             <div class="comment">
                                 <img class="profilepic" src="https://i.imgur.com/9jFk6iv.png">
                                 <p>You got that from Crunchyroll Expo. weeb</p>
-                                <div id="num3odd"></div>
+                                <div id="num31"></div>
                             </div>
                             <div class="comment">
                                 <img class="profilepic" src="https://i.imgur.com/I3mHUFf.png">
@@ -1926,6 +1942,7 @@ input {
                 </div>
                 <div class="motorola post">
                     <img class="max" src="https://banner2.kisspng.com/20180927/lg/kisspng-mobile-phones-motorola-international-32-telephon-wix-com-xpeich-created-by-xpeich-based-on-long-1-5bad2e03bb1a81.9875227515380761637664.jpg">
+                    <div id="num13"></div>
                     <p>This is my old phone. I like this phone because it doesn't have all that techno stuff that my smartphone has. I really want to switch back to this phone because it lets me disconnect from the internet. But know, I find myself creating blogs like these because some day, I won't have these items anymore.</p>
                     
                     <div class="commentdiv">
@@ -1966,6 +1983,7 @@ input {
         
             <div class="postContainer">
                 <img src="https://i.imgur.com/aVEOSYm.png">
+                <div id="num23"></div>
                 <p>Hi everyone! My name is Caesar. This blog is where I post pictures and backstories of my favorite/cherished items. All these cherished items are cherished for a reason. I post these cherished items online because some day, these items will be gone and I won't have them anymore. This blog is a way of remembering these items and sharing them with the world! </p>
             </div>
         </div>
@@ -2199,6 +2217,7 @@ input {
                             <div class="comment">
                                 <img class="profilepic" src="https://i.imgur.com/iLoj1nl.png">
                                 <p>Guys, please stop bullying</p>
+                                <div id="num22"></div>
                             </div>
                             <div class="comment">
                                 <img class="profilepic" src="https://i.imgur.com/iLoj1nl.png">
@@ -2357,7 +2376,7 @@ input {
                                 <p>This is not a joke.</p>
                             </div>
                             
-                            <div id="num1odd">
+                            <div id="num11">
                             </div>
                         </div>
                         <div class="send">
@@ -2473,11 +2492,12 @@ input {
                 <pre>To whoever keeps sending me messages:
 Please stop.</pre>
 
-            <pre>I will only let those who fully understand me to talk to me.</pre>
+            <pre>I will only let those who fully understand me talk to me.</pre>
             <pre>Please enter my code.</pre>
             <input id="code" type="text">
             <button id="codeEnter">Submit</button>
             </div>
+            <div id="num42"></div>
         </div>
     </div>
     
@@ -2571,28 +2591,44 @@ var number4 = 1 + Math.floor(Math.random() * 9);
 
 // alert(number1 + "" + number2 + "" + number3 + "" + number4);
 
-if (number1 % 2 === 0) {
-    $("#num1even").text(number1);
-} else {
-    $("#num1odd").text(number1);
+if (number1 % 2 === 0 && number1 < 5.5) {
+    $("#num10").text(number1);
+} else if (number1 % 2 !== 0 && number1 < 5.5) {
+    $("#num11").text(number1);
+} else if (number1 % 2 === 0 && number1 > 5.5) {
+    $("#num12").text(number1);
+} else if (number1 % 2 !== 0 && number1 > 5.5) {
+    $("#num13").text(number1);
 }
 
-if (number2 % 2 === 0) {
-    $("#num2even").text(number2);
-} else {
-    $("#num2odd").text(number2);
+if (number2 % 2 === 0 && number2 < 5.5) {
+    $("#num20").text(number2);
+} else if (number2 % 2 !== 0 && number2 < 5.5) {
+    $("#num21").text(number2);
+} else if (number2 % 2 === 0 && number2 > 5.5) {
+    $("#num22").text(number2);
+} else if (number2 % 2 !== 0 && number2 > 5.5) {
+    $("#num23").text(number2);
 }
 
-if (number3 % 2 === 0) {
-    $("#num3even").text(number3);
-} else {
-    $("#num3odd").text(number3);
+if (number3 % 2 === 0 && number3 < 5.5) {
+    $("#num30").text(number3);
+} else if (number3 % 2 !== 0 && number3 < 5.5) {
+    $("#num31").text(number3);
+} else if (number3 % 2 === 0 && number3 > 5.5) {
+    $("#num32").text(number3);
+} else if (number3 % 2 !== 0 && number3 > 5.5) {
+    $("#num33").text(number3);
 }
 
-if (number4 % 2 === 0) {
-    $("#num4even").text(number4);
-} else {
-    $("#num4odd").text(number4);
+if (number4 % 2 === 0 && number4 < 5.5) {
+    $("#num40").text(number4);
+} else if (number4 % 2 !== 0 && number4 < 5.5) {
+    $("#num41").text(number4);
+} else if (number4 % 2 === 0 && number4 > 5.5) {
+    $("#num42").text(number4);
+} else if (number4 % 2 !== 0 && number4 > 5.5) {
+    $("#num43").text(number4);
 }
 
 $("#codeEnter").click(function() {
